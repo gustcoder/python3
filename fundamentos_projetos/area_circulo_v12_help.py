@@ -17,6 +17,8 @@ def circle_area(raio):
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         show_help("É necessário informar {} <raio>", sys.argv[0])
+        sys.exit(1)
+        print("Já não passa mais aqui!")
     else:
         raioStr = sys.argv[1]  # recebe parametro direto via comando - executar nome do arquivo + valor do raio
         area_circulo = circle_area(float(raioStr))
