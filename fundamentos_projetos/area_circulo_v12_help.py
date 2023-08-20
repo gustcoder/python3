@@ -19,7 +19,7 @@ if __name__ == "__main__":
     if len(sys.argv) < 2:
         show_help("É necessário informar {} <raio>", sys.argv[0])
         # sys.exit(0) - terminou com sucesso
-        # sys.exit(1) - terminou com erro
+        # sys.exit(1) - terminou com erro, que é o mesmo que EPERM
         sys.exit(errno.EPERM) # importando errno podemos passar o tipo de erro especifico
         print("Já não passa mais aqui!")
     else:
