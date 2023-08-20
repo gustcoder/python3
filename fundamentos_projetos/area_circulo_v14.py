@@ -7,8 +7,12 @@ import sys
 import errno
 
 
+ERRO = '\033[91m'
+NORMAL = '\033[0m'
+
+
 def show_help(text, parameter=None):
-    print(text.format(parameter)) if parameter else print(text)
+    print(ERRO, text.format(parameter), NORMAL) if parameter else print(ERRO, text, NORMAL)
 
 
 def circle_area(raio):
