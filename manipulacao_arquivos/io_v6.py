@@ -8,3 +8,4 @@ if file.closed:
 
 if output.closed:
     print("Com o with, o arquivo (e até conexoes) será fechado automaticamente!")
+
