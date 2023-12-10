@@ -68,7 +68,3 @@ if __name__ == "__main__":
     print(f'Cliente É Maior de Idade: {cliente.is_adult()}')
     print(f'Data Última Compra: {data_ultima_compra}')
     print(f'Total Compras: {total}')
-
-
-
-
