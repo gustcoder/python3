@@ -49,11 +49,8 @@ class Compra:
 
 
 if __name__ == "__main__":
-    pessoa1 = Pessoa('Vendson da Silva', 40)
-    pessoa2 = Pessoa('Clientson Pereira', 22)
-
-    vendedor = Vendedor(pessoa1.nome, pessoa1.idade, salario=2500)
-    cliente = Cliente(pessoa2.nome, pessoa2.idade)
+    vendedor = Vendedor('Vendson da Silva', 40, salario=2500)
+    cliente = Cliente('Clientson Pereira', 22)
 
     compra1 = Compra(vendedor.nome, '08/12/2023', 5000)
     cliente.registrar_compra(compra1.compra)
