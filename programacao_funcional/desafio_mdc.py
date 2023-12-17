@@ -2,6 +2,7 @@ def debug(menor, maior, i):
     print(f'{menor} % {i} = {menor % i} and {maior} % {i} = {maior % i}')
 
 
+# @todo revisar calculos dos casos [15, 150] e [7, 9] por nao estar considerando 1 como MDC
 def mdc(numeros):
     menor = min(numeros)
     maior = max(numeros)
