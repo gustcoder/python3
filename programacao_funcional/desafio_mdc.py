@@ -1,6 +1,7 @@
 def debug(menor, maior, i):
     print(f'{menor} % {i} = {menor % i} and {maior} % {i} = {maior % i}')
 
+
 def mdc(numeros):
     menor = min(numeros)
     maior = max(numeros)
